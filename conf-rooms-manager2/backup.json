@@ -1,0 +1,106 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "username": "admin",
+            "password": "admin123",
+            "role": "admin"
+        },
+        {
+            "id": "2",
+            "username": "user2",
+            "password": "user123",
+            "role": "user"
+        },
+        {
+            "id": "3",
+            "username": "user1",
+            "password": "user123",
+            "role": "user"
+        }
+    ],
+    "meetingRooms": [
+        {
+            "id": "1",
+            "name": "Room A",
+            "capacity": 3,
+            "availability": true,
+            "url": "https://img.freepik.com/free-photo/room-used-official-event_23-2151054276.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Room B",
+            "capacity": 5,
+            "availability": false,
+            "url": "https://img.freepik.com/free-photo/room-used-official-event_23-2151054274.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Room C",
+            "capacity": 8,
+            "availability": true,
+            "url": "https://img.freepik.com/free-photo/room-used-official-event_23-2151054275.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Room D",
+            "capacity": 15,
+            "availability": true,
+            "url": "https://img.freepik.com/free-photo/room-used-official-event_23-2151054260.jpg"
+        }
+    ],
+    "bookings": [
+        {
+            "id": "1",
+            "roomId": "1",
+            "userId": "3",
+            "startTime": "2024-07-10T10:00:00",
+            "endTime": "2024-07-10T12:00:00",
+            "numPeople": "5"
+        },
+        {
+            "id": "2",
+            "roomId": "2",
+            "userId": "2",
+            "startTime": "2024-07-11T14:00:00",
+            "endTime": "2024-07-11T16:00:00",
+            "numPeople": "6"
+        },
+        {
+            "id": "3",
+            "roomId": "2",
+            "userId": "2",
+            "startTime": "2024-07-12T09:00:00",
+            "endTime": "2024-07-12T11:00:00",
+            "numPeople": "4"
+        },
+        {
+            "id": "4",
+            "roomId": "1",
+            "userId": "1",
+            "startTime": "2024-07-11T11:15",
+            "endTime": "2024-07-11T12:15",
+            "numPeople": "3"
+        },
+        {
+            "id": "5",
+            "startTime": "2024-07-11T12:20",
+            "endTime": "2024-07-11T13:20",
+            "numPeople": "5",
+            "userId": "2",
+            "roomId": "3"
+        }
+    ],
+    "pendingBookings": [],
+    "history": [
+        {
+            "id": "afb4",
+            "startTime": "2024-07-11T10:00",
+            "endTime": "2024-07-11T11:00",
+            "numPeople": "4",
+            "userId": "1",
+            "roomId": "4",
+            "status": "dismissed"
+        }
+    ]
+}
